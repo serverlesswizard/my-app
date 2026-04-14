@@ -8,6 +8,6 @@ pwd
 ls -la
 
 echo "Running script..."
-python3 main.py   # change if your file name is different
+python3 app.py   # change if your file name is different
 
 echo "=== Done ==="
