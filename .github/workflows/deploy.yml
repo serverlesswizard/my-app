@@ -23,5 +23,5 @@ jobs:
 
       - name: Deploy app
         run: |
-          chmod +x deploy1.sh
-          bash -x deploy1.sh
+          chmod +x deploy.sh
+          bash -x deploy.sh
