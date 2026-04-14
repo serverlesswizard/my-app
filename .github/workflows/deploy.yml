@@ -22,7 +22,6 @@ jobs:
         run: python3 -m pytest tests/ -v
 
       - name: Deploy app
-        run: bash deploy1.sh
-
-      - name: Run tests
-        run: echo "Skipping tests"
+        run: |
+          chmod +x deploy1.sh
+          bash -x deploy1.sh
